@@ -1,0 +1,75 @@
+.glassesApp {
+    background-color: #F3ACB6;
+    font-family: 'Dancing Script', cursive;
+
+    .container {
+        header {
+            p {
+                font-size: 60px;
+                text-transform: capitalize;
+            }
+        }
+
+        .models {
+            .model_withoutGlasses {}
+
+            .model_withGlasses {
+                .model_right {
+                    position: relative;
+
+                    .model_glasses {
+                        position: absolute;
+                        top: 110px;
+                        left: 224px;
+
+                        img {
+                            width: 190px;
+                            opacity: 0.8;
+                        }
+                    }
+
+                    .model_content {
+                        position: absolute;
+                        text-align: start;
+                        bottom: 0;
+                        left: 143px;
+                        background-color: #DADDE2;
+                        width: 350px;
+                        height: 150px;
+                        opacity: 0.6;
+
+                        h5 {
+                            color: #AF2655;
+                            font-size: 28px;
+                            font-weight: bolder;
+                            text-transform: capitalize;
+                            padding-left: 10px;
+                            padding-top: 10px;
+                        }
+
+                        p {
+                            padding-left: 10px;
+                            font-size: 18px;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .glassesCollection {
+            .col-2 {
+                margin-bottom: 15px;
+                cursor: pointer;
+
+                .card {
+                    padding: 10px;
+
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
